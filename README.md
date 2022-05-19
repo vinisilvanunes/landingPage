@@ -1,6 +1,6 @@
 # Landing Page
 
-Landing Page simples com apenas HTML e CSS (flexbox) para um curso de fotografia com o smartphone.
+Landing Page simples com apenas HTML e CSS (flexbox) .
 
 [x] HTML semântico
 
