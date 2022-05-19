@@ -1,0 +1,351 @@
+:root {
+    --primaria: #FF5714;
+    --secundaria: #95989A;
+    --textoPrimaria: #FFF;
+    --textoSecundaria: #000;
+    --textoTerciaria: #5d5d5d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Formulário*/
+
+#descricaoEvento {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/banner1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--textoPrimaria);
+}
+
+#aviso h2,
+#aviso #dataEvento {
+    color: var(--primaria);
+}
+
+#aviso h2 {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+#aviso #sobre {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    max-width: 350px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#aviso p {
+    font-size: 1em;
+    margin-bottom: .3em;
+}
+
+#aviso #dataEvento {
+    font-weight: bold;
+}
+
+#formularioInscricao {
+    background-color: var(--secundaria);
+    padding: 2em;
+    max-width: 22%;
+}
+
+#formularioInscricao p {
+    font-size: 1.5em;
+    color: var(--textoSecundaria);
+    margin-bottom: 1em;
+}
+
+.itemFormulario {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .8em;
+}
+
+.itemFormulario label {
+    color: var(--textoTerciaria);
+    margin-bottom: .3em;
+    font-weight: bold;
+}
+
+.itemFormulario input,
+.itemFormulario select {
+    padding: 6px 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.btn {
+    background-color: var(--primaria);
+    color: var(--textoPrimaria);
+    text-transform: uppercase;
+    width: 100%;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+/* Benfefícios */
+
+#chamadaBeneficios h2 {
+    background-color: var(--secundaria);
+    text-align: center;
+    padding: 2em;
+    font-weight: 500;
+}
+
+.beneficios {
+    display: flex;
+    justify-content: space-around;
+    padding: 4em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.beneficio {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+    color: var(--textoTerciaria);
+}
+
+.beneficio .beneficio-imagem {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+
+#beneficio-1 {
+    background: url("../img/config.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#beneficio-2 {
+    background: url("../img/iluminacao.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#beneficio-3 {
+    background: url("../img/angulo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+#beneficio-4 {
+    background: url("../img/composicao.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Local */
+#local {
+    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/banner2.jpg");
+    color: var(--textoPrimaria);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+#endereco,
+#sobreLocal {
+    max-width: 30%;
+}
+
+#sobreLocal a {
+    color: var(--primaria);
+}
+
+#endereco {
+    display: flex;
+    align-items: center;
+}
+
+#endereco i {
+    color: var(--primaria);
+    font-size: 4em;
+    margin-right: .5em;
+}
+
+#detalhesEndereco {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#sobreLocal h3 {
+    color: var(--primaria);
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+#sobreLocal p{
+    line-height: 1.5em;
+}
+
+/* Chamada Inscrição */
+
+#chamadaInscricao{
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/banner1.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--textoPrimaria);
+}
+
+#chamadaInscricao h3{
+    margin-bottom: 1.2em;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+#chamadaInscricao .btn{
+    width: 30%;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+/* Footer */
+
+#footer{
+    text-align: center;
+    color: var(--textoSecundaria);
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer h3{
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+
+#footer p:nth-child(2){
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+#footer span{
+    font-weight: bold;
+}
+
+#footer p:nth-child(5){
+    margin-bottom: 1.5em;
+}
+
+#footer i{
+    font-size: 1.5em;
+    color: var(--textoSecundaria);
+    transition: .5s;
+}
+
+#footer i:hover{
+    font-size: 200%;
+    color: var(--primaria);
+}
+
+/* Mobile */
+@media(max-width: 750px) {
+
+    .btn{
+        opacity: 1;
+    }
+    /* Formulário do Evento */
+    #descricaoEvento{
+        flex-direction: column;
+        height: auto;
+    }
+
+    #aviso{
+        padding: 2em;
+    }
+
+    #aviso h2{
+        margin-bottom: .5em;
+    }
+
+    #formularioInscricao{
+        max-width: 70%;
+        margin-bottom: 2em;
+    }
+
+    /* Beneficios */
+    .beneficios{
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        padding: 2em;
+    }
+
+    .beneficio{
+        max-width: 100%;
+        margin-bottom: 2em;
+    }
+
+    /* Local do Evento */
+    #local{
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 2em 0;
+    }
+
+    #endereco{
+        order: 2;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    #endereco i{
+        margin: .3em 0;
+    }
+
+    #sobreLocal{
+        order: 1;
+        max-width: 100%;
+    }
+
+    #sobreLocal h3{
+        margin-bottom: 0;
+    }
+
+    #sobreLocal p{
+        display: none;
+    }
+
+    /* Chamada Inscrição */
+
+    #chamadaInscricao .btn{
+        width: 80%;
+    }
+}
